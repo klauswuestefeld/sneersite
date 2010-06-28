@@ -43,22 +43,21 @@ a { outline:none; }
 #center #left_center { width:270px; margin-right:20px; background-color:#fff; float:left; }
 #center #left_center #box-what { float:left; }
 #center #left_center #box-what h1 { background: left top no-repeat url(../imgs/title-whatsneer.gif) #fff; width:204px; height:25px; text-indent:-9999px; margin:0 0 15px 0; padding:0; }
+#center #left_center #box-what h2 { color:#C00; font-size:16px; text-align:right; font-weight:bold; width:270px; }
 #center #left_center #box-what span { text-align:justify; color:#666; font-size:14px; height:180px; line-height:18px; float:left; }
-
 #center #player-video { float:left; }
-
+#center #diagrams { width:690px; text-align:left; font-size:16px; color:#000; font-weight:normal; float:left; }
+#center #diagrams .left { border-right: 1px solid #EAF2F6; padding-right:10px; float:left; }
+#center #diagrams .right { float:right; }
 #center #download h1, #center #project h1, #center #about h1 { background: left top no-repeat url(../imgs/title-download.gif) #fff; width:222px; height:25px; text-indent:-9999px; margin:0 0 15px 0; padding:0; }
 #center #download { color:#666; font-size:14px; }
-#center #download span { background-color:#CC0000; padding:5px; margin:5px 0 0 0; color:#fff; font-weight:bold; float:left; }
+#center #download span { color:#CC0000; font-weight:bold; }
 #center #download a { color:#0097DE; text-decoration:underline; }
 #center #download a:hover { color:#0097DE; text-decoration:none; }
-
 #center #project h1 { background: left top no-repeat url(../imgs/title-project.gif) #fff; width:91px; height:30px; }
-
-#center #about h1 { background: left top no-repeat url(../imgs/title-about.gif) #fff; width:124px; height:24px; }
+#center #about h1.title { background: left top no-repeat url(../imgs/title-about.gif) #fff; width:124px; height:24px; }
 #center #about { color:#666; font-size:14px; }
 #center #about .member { border:none; float:left; }
-/*#center #about .member:hover { border-left:#fff solid 20px; float:left; }*/
 #center #about .photo { border:10px solid #EAF2F6; width:160px; margin-right:20px; float:left; }
 #center #about .photo:hover { border:10px solid #0097DE; }
 #center #about .text { width:470px; float:left; }
@@ -73,8 +72,11 @@ a { outline:none; }
 #center #about ul { padding:0 0 0 20px; list-style:circle; width:450px; }
 #center #about li.dark, #center #about li.light { text-align:justify; margin-bottom:10px; color:#999; }
 #center #about li.light { color:#666; }
-
-
+#center #form { /*background-color:#fff; #EAF2F6 padding:20px;*/ float:left; }
+#center #form  h1.form { background: left top no-repeat url(../imgs/title-contactus.gif) #EAF2F6; width:147px; height:25px; margin-bottom:20px; }
+#center #form input.text { height:20px; width:200px; font-size:16px; color:#1E5786; margin-bottom:10px; background-color:#fff; border:1px solid #8FABC3; padding:3px 5px 3px 5px; }
+#center #form textarea { width:400px; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#1E5786; background-color:#fff; border:1px solid #8FABC3; padding:3px 5px 3px 5px; }
+#center #form input.submit { padding:4px 10px 4px 10px; margin-top:10px; font-weight:bold; background-color:#1E5786; color:#fff; border-collapse:separate; }
 
 #footer-clear { clear:both; padding-top:30px; }
 #footer { padding:20px 0 10px 10px; height:40px; background:#fff left top repeat-x url(../imgs/rodape-bg.jpg); }
