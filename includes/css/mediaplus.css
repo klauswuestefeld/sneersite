@@ -58,8 +58,7 @@ a { outline:none; }
 #center #about h1.title { background: left top no-repeat url(../imgs/title-about.gif) #fff; width:124px; height:24px; }
 #center #about { color:#666; font-size:14px; }
 #center #about .member { border:none; float:left; }
-#center #about .photo { border:5px solid #EAF2F6; width:90px; margin-right:10px; float:left; }
-#center #about .photo:hover { border:5px solid #0097DE; }
+#center #about .photo { border:5px solid #C8DDE8; width:90px; margin-right:10px; float:left; }
 #center #about .text { width:470px; float:left; }
 #center #about .name { font-size:18px; color:#CC0000; }
 #center #about .info { font-size:14px; color:#666; }
