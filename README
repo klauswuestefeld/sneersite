@@ -1,1 +1,44 @@
-Sneer site
+Sneer's website currently has 4 HTML pages:
+
+1) Home (index.html)
+	- Illustrative text, video and picture 
+2) Project (project.html)
+	- Details of the platform 
+3) Download (download.html)
+	- Access to Sneer's JNLP links 
+4) About Us (about.html)
+	- Project Team: members and contributors 
+
+All the pages make use of a common layout, which is defined in '_layout/composite.html' and sets a composite view as shown below:
+
+					*************************************************
+					*		*				Top						*
+					*		*			  (Header)					*
+					*		*****************************************
+					*		*										*
+					*		*										*
+					* Left	*										*
+					*(Menu)	*										*
+					*		*				Center					*
+					*		*			(dynamic content)			*
+					*		*										*
+					*		*										*
+					*		*										*
+					*		*										*
+					*************************************************
+					*						Bottom					*
+					*					   (Footer)					*
+					*************************************************
+
+The '_layout/composite.html' extends the '_layout/base.html', which only contains metadata and the Google Analytics' script.
+The extension is declared via a YAML front matter note in the opening lines of the composite layout's file - http://wiki.github.com/mojombo/jekyll/yaml-front-matter  
+Apart from the central frame of the composite layout, all other areas - top, left and bottom - are filled with static HTML files stored in the '_includes' folder and loaded via Liquid's includes tags (http://wiki.github.com/mojombo/jekyll/liquid-extensions). 
+Although the template's arrangement in components (or areas) is credited to the composite.html file, most of the layout's actual settings and magic comes from the 'resources/css/sneer.css' file.  
+
+The template described above is applied to all pages of the website, leaving only the central frame to be defined by them. 
+The "dynamic" insertion of each page's content into the template is accomplished using Jekyll - a Ruby-based static site generator (http://wiki.github.com/mojombo/jekyll), which is automatically invoked by GitHub when code is commited to a gh-pages branch.
+If you want to see the final result of changes made to your website before commiting the code to your Github's repository, you should install Jekyll at your local machine and have it render the HTML pages.
+There are many articles on the Web to help you through the process of installing and running Jekyll, and I personally recommend the following:
+
+1) http://articles.sitepoint.com/article/jekyll-sites-made-simple
+2) http://blog.envylabs.com/2009/08/publishing-a-blog-with-github-pages-and-jekyll

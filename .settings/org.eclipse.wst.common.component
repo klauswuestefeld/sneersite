@@ -2,6 +2,7 @@
 <project-modules id="moduleCoreId" project-version="1.5.0">
     <wb-module deploy-name="sneer-site">
         <wb-resource deploy-path="/" source-path="/includes"/>
+        <wb-resource deploy-path="/" source-path="/resources"/>
         <property name="context-root" value="sneer"/>
     </wb-module>
 </project-modules>
