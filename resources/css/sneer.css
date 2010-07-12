@@ -64,6 +64,7 @@ a { outline:none; }
 #center #about .info { font-size:14px; color:#666; }
 #center #about .title-contact { padding:5px 8px 5px 8px; color:#fff; background-color:#C00; float:left; }
 #center #about .contact { font-size:14px; color:#666; }
+#center #about span.at { color:#0097DE; font-size:14px; text-decoration:underline; cursor:default; }
 #center #about a { color:#0097DE; text-decoration:underline; }
 #center #about a:hover { text-decoration:none; }
 #center #about hr { margin:10px 0 15px 0; border:none; border-bottom: 1px dotted #EAF2F6; height:1px; width:100%; float:left; }
