@@ -12,23 +12,24 @@ Sneer's website currently has 4 HTML pages:
 All the pages make use of a common layout, which is defined in '_layout/composite.html' and sets a composite view as shown below:
 
 					*************************************************
-					*		*				Top						*
-					*		*			  (Header)					*
+					*		*		 		 Top					*
+					*		*	       	   (Header)					*
 					*		*****************************************
 					*		*										*
 					*		*										*
 					* Left	*										*
 					*(Menu)	*										*
-					*		*				Center					*
-					*		*			(dynamic content)			*
+					*		*		 		Center  				*
+					*		*	    	(Dynamic Content)			*
 					*		*										*
 					*		*										*
 					*		*										*
 					*		*										*
 					*************************************************
-					*						Bottom					*
-					*					   (Footer)					*
+					*			 			Bottom					*
+					*		        	   (Footer) 				*
 					*************************************************
+
 
 The '_layout/composite.html' extends the '_layout/base.html', which only contains metadata and the Google Analytics' script.
 The extension is declared via a YAML front matter note in the opening lines of the composite layout's file - http://wiki.github.com/mojombo/jekyll/yaml-front-matter  
