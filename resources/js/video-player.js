@@ -711,7 +711,7 @@ function playerReady(thePlayer) {
 function createPlayer() {
        var flashvars = {
                file:"../video/Opera_Unite.flv",
-               image:"resources/imgs/first-frame-video.gif",
+               image:"resources/imgs/video-first-frame.jpg",
                autostart:"false",
                volume:"100",
                screencolor:"black",
