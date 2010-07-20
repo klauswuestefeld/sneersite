@@ -82,4 +82,3 @@ a { outline:none; }
 #bottom span.footer-text-top strong { font-weight:normal; color:#1E5785; font-size:14px; }
 #bottom span.footer-text-bottom { color:#BFBFBF; font-size:10px; }
 #bottom a.mediaplus-logo { background:url(../imgs/mediaplus-logo.png) top left; margin-top:10px; width:55px; height:22px; text-indent:-9999px; float:right; }
-#bottom a.mediaplus-logo:hover { background:url(../imgs/mediaplus-logo.png) bottom left; }
