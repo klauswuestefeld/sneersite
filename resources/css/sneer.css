@@ -55,6 +55,7 @@ a { outline:none; }
 #center #download a { color:#0097DE; text-decoration:underline; }
 #center #download a:hover { color:#0097DE; text-decoration:none; }
 #center #project h1 { background: left top no-repeat url(../imgs/title-project.gif) #fff; width:91px; height:30px; }
+#center #problems h1 { background: left top no-repeat url(../imgs/title-problems.gif) #fff; width:91px; height:30px; }
 #center #about h1.title { background: left top no-repeat url(../imgs/title-about.gif) #fff; width:124px; height:24px; }
 #center #about { color:#666; font-size:14px; }
 #center #about .member { border:none; float:left; }
