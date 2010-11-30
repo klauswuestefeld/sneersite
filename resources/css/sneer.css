@@ -49,11 +49,11 @@ a { outline:none; }
 #center #picture { width:690px; text-align:left; font-size:16px; color:#000; font-weight:normal; float:left; }
 #center #picture .left { border-right: 1px solid #EAF2F6; padding-right:10px; float:left; }
 #center #picture .right { float:right; }
-#center #download h1, #center #project h1, #center #about h1 { background: left top no-repeat url(../imgs/title-download.gif) #fff; width:222px; height:25px; text-indent:-9999px; margin:0 0 15px 0; padding:0; }
-#center #download { color:#666; font-size:14px; }
-#center #download span { color:#CC0000; font-weight:bold; }
-#center #download a { color:#0097DE; text-decoration:underline; }
-#center #download a:hover { color:#0097DE; text-decoration:none; }
+#center #gettingStarted h1, #center #project h1, #center #about h1 { background: left top no-repeat url(../imgs/title-gettingStarted.gif) #fff; width:222px; height:25px; text-indent:-9999px; margin:0 0 15px 0; padding:0; }
+#center #gettingStarted { color:#666; font-size:14px; }
+#center #gettingStarted span { color:#CC0000; font-weight:bold; }
+#center #gettingStarted a { color:#0097DE; text-decoration:underline; }
+#center #gettingStarted a:hover { color:#0097DE; text-decoration:none; }
 #center #project h1 { background: left top no-repeat url(../imgs/title-project.gif) #fff; width:91px; height:30px; }
 #center #problems h1 { background: left top no-repeat url(../imgs/title-problems.gif) #fff; width:91px; height:30px; }
 #center #about h1.title { background: left top no-repeat url(../imgs/title-about.gif) #fff; width:124px; height:24px; }
