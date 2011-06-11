@@ -6,6 +6,7 @@
     <description>Free platform for sovereign applications.</description>
     <description kind="tooltip">Sneer</description>
     <homepage href="http://sneer.me" />
+    <icon href="http://sneer.me/logo16x16.png"/>
     <offline-allowed />
     <shortcut online="false">
       <desktop />
