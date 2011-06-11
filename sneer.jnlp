@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jnlp href="http://sneer.me/sneer.jnlp" spec="1.0+">
+<jnlp href="http://sneer.me/webstart/sneer.jnlp" spec="1.0+">
   <information>
     <title>Sneer</title>
     <vendor>Sneer Team</vendor>
@@ -14,7 +14,7 @@
   </information>
   <update check="timeout" policy="always" />
   <resources>
-    <jar href="http://dynamic.sneer.me/sneer-bootstrap.jar" />
+    <jar href="http://dynamic.sneer.me/webstart/sneer-bootstrap.jar" />
     <j2se href="http://java.sun.com/products/autodl/j2se" version="1.6+" />
   </resources>
   <security>
