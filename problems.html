@@ -29,7 +29,7 @@ problems: class='sel'
 				<ul>
 					<li>Each brick runs in its own classloader so that it can be sandboxed using the Java security model. However, Sneer is NOT sandboxing them yet.</li>
 					<li>All data communication passes through a single point in the code, allowing data encryption to be added when that becomes a priority.</li>
-					<li>Each Sneer user has their own "Seal" (a SHA512 hash of an ECDSA512 public-key) for authentication, although it is NOT being enforced right now.</li>
+					<li>Each Sneer user has their own "Seal" (a SHA512 hash of an ECDSA256 public-key) for authentication, although it is NOT being enforced right now.</li>
 				</ul>
 
 			So, simply DO NOT run 3rd party bricks you don't trust and do not use Sneer to host or transfer security-critical information just yet.
