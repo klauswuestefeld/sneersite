@@ -4,24 +4,67 @@ gettingStarted: class='sel'
 ---
 
 <div id="gettingStarted">
+	<script type="text/javascript">
+		function doit(pId){
+		    div = document.getElementById(pId);
+		    if(div.style.display == 'none'){
+		        div.style.display = 'inline';
+		    } else {
+		        div.style.display = 'none';
+		    }
+		}
+	</script>
 	<div id="text">
 		<h1>Getting Started</h1>
-		<br />
-		This will download Sneer source code, documentation and launch Sneer.
-		<br id="clear" /><br />
-		You can access the documentation from within the Sneer main menu.
-		<br /><br />
-		To uninstall, simply delete the Sneer folder.
-		<br /><br />
-		- Automatic installation: <script src="http://www.java.com/js/deployJava.js"></script>
-		<script>
-	    	var url = "http://dynamic.sneer.me/webstart/sneer.jnlp";
-	    	deployJava.createWebStartLaunchButton(url, '1.6.0');
-		</script>
-		<br />
-		OR
-		<br />
-		- Manual installation: <a href="http://dynamic.sneer.me/webstart/sneer.jnlp">Sneer</a> requires <a href="http://java.com/inc/BrowserRedirect1.jsp?locale=en" target="_blank">Java 6 Webstart</a>.
+		<p>Follow steps below in order to get started with Sneer</p>
+	
+		<div onclick="doit('installing');" onMouseOver="this.style.cursor='pointer';">
+			<h2>Installing</h2>
+		</div>
+
+		<div id="installing" align="left" style="display: none;">
+			<ul	style="list-style-type: none; position: relative; left: -10; width: 750px">
+				<li>
+					<p>
+						This will download Sneer source code, documentation and launch Sneer.
+						<br id="clear" /><br />You can access the documentation from within the Sneer main menu.
+						<br /><br />To uninstall, simply delete the Sneer folder.
+						<br /><br />
+						- Automatic installation: <script src="http://www.java.com/js/deployJava.js"></script>
+						<script>
+					    	var url = "http://dynamic.sneer.me/webstart/sneer.jnlp";
+					    	deployJava.createWebStartLaunchButton(url, '1.6.0');
+						</script>
+						<br />
+						OR
+						<br />
+						- Manual installation: <a href="http://dynamic.sneer.me/webstart/sneer.jnlp">Sneer</a> 
+							(requires <a href="http://java.com/inc/BrowserRedirect1.jsp?locale=en" target="_blank">Java 6 Webstart</a>).
+					</p>
+					<p>
+						Once you have successfully downloaded Sneer a small screen will show up asking you a secret phrase. 
+						Choose it wisely because it will generate your Sneer identity.  
+					</p>
+					<img src="resources/imgs/_enterScreen.png">
+				</li>
+			</ul>
+		</div>
+		
+		<div onclick="doit('addFriend');" onMouseOver="this.style.cursor='pointer';">
+			<h2>Adding a friend</h2>
+		</div>
+
+		<div id="addFriend" align="left" style="display: none;">
+			<p>Adding</p>
+		</div>
+		
+		<div onclick="doit('share');" onMouseOver="this.style.cursor='pointer';">
+			<h2>Sharing a music track</h2>
+		</div>
+
+		<div id="share" align="left" style="display: none;">
+			<p>Sharing</p>
+		</div>
 	</div>
 </div>
 
