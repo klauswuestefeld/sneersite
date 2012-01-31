@@ -9,21 +9,16 @@ problems: class='sel'
 	<div id="text">
 		<h3>Third Party Criticism</h3>
 
-			Find Sneer criticism by other people: <a href='http://www.google.com/search?q="Sneer+problems"'>http://www.google.com/search?q="Sneer+problems"</a><br/>
-			We value feedback <b><i>a lot</i></b>. If you post criticism about Sneer, do not forget to add the phrase <b>"Sneer problems"</b>, as it will help people find it using the link above.<br/>
-			It doesn't even have to be constructive, but at least don't make a fool of yourself:<br/>
-				<ul>
-					<li><b>Don't Slander</b> - Give concrete examples of the problems you are talking about. Don't just say "Sneer is full of bugs" or "Sneer sucks" without pointing the bugs or elaborating on your complaints.</li>
-					<li><b>Know What You Are Talking About</b> - Don't just randomly walk around the code pointing fingers at snippets out of context. We have already seen, for instance, violent criticism of exception handling snippets in code that, when executed, produces the console message <i>"Under Construction. Don't run in production".</i>  :-P</li>
-					<li><b>Be Honest</b> - Don't post known problems - such as the ones below - as if you had discovered a big hidden secret.</li>
-				</ul>
+			Find recent criticism on Sneer by other people using this <a href='https://www.google.com/search?q="sneer+can+improve"&tbs=qdr:y'>Google search</a>.<br/><br/>
+			We value feedback <b><i>a lot</i></b>. If you post criticism about Sneer, please include the phrase <b>"Sneer can improve"</b>. This will help people find your post using the link above.<br/><br/>
+			Please be constructive and give concrete examples of what you are talking about.
 
 		<h3>Security</h3>
 
-			Security hooks are built into Sneer from the beginning:<br/>
+			Security is built into Sneer from the beginning:<br/>
 				<ul>
 					<li>Each brick runs in its own classloader so that it can be sandboxed using the Java security model. However, Sneer is NOT sandboxing them yet.</li>
-					<li>All data communication passes through a single point in the code, allowing data encryption to be added when it becomes a priority.</li>
+					<li>All data communication passes through a single point in the code, allowing data encryption to be added when that becomes a priority.</li>
 					<li>Each Sneer user has their own "Seal" (a SHA512 hash of an ECDSA512 public-key) for authentication, although it is NOT being enforced right now.</li>
 				</ul>
 
@@ -31,15 +26,11 @@ problems: class='sel'
 
 		<h3>GUI Freeze-ups</h3>
 
-			The GUI is not stable yet and will occasionally freeze-up. We are pushing the limits of existing GUI frameworks, which are mostly geared toward having the GUI initiate events and not asynchronously reacting to events in the system.<br/>
-
-		<h3>Network Hogging</h3>
-
-			Sneer is currently opening an inordinate amount of TCP connections and it might hog old, weaker routers.<br/>
+			The GUI is not stable yet and will occasionally freeze-up. We are pushing the limits of existing GUI frameworks, which are mostly geared toward having the GUI initiate events and not asynchronously reacting to events in the system. Swing and GUI experts in general are very welcome to the project.<br/>
 
 		<h3>Reporting Problems</h3>
 
-			Please use our discussion <a href="http://groups.google.com/group/sneercoders">group</a> to report problems<br/>
+			Please use our <a href="http://groups.google.com/group/sneercoders">discussion group</a> to report problems.<br/>
 	</div>
 
 </div>
