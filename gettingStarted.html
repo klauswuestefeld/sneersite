@@ -5,9 +5,9 @@ gettingStarted: class='sel'
 
 <div id="gettingStarted">
 	<script type="text/javascript">
-		function doit(pId){
+		function doit(pId) {
 		    div = document.getElementById(pId);
-		    if(div.style.display == 'none'){
+		    if (div.style.display == 'none') {
 		        div.style.display = 'inline';
 		    } else {
 		        div.style.display = 'none';
@@ -16,14 +16,16 @@ gettingStarted: class='sel'
 	</script>
 	<div id="text">
 		<h1>Getting Started</h1>
-		<p>Using Sneer with others is more fun. Call a friend to try it out with you.</p>
+			<p style="position: relative; margin-left: 10px;">
+				Using Sneer with others is more fun. Call a friend to try it out with you.
+			</p>
 	
 		<div onclick="doit('download');" onMouseOver="this.style.cursor='pointer';">
 			<h3>» Downloading</h3>
 		</div>
 
 		<div id="download" align="left" style="display: none;">
-			<ul	style="list-style-type: none; position: relative; margin-left: 10px; width: 700px">
+			<ul	style="list-style-type: none; position: relative; margin-left: 10px; width: 650px">
 				<li>
 					<p>
 						This will download Sneer source code, documentation and launch Sneer.
@@ -42,14 +44,14 @@ gettingStarted: class='sel'
 					</p>
 					<br />
 					<p>
-						You will be prompted for a secret passphrase. It should be more than 30 characters long and unique to you, for example: your childhood phone number followed by a verse from your favorite song.
+						You will be prompted for a secret passphrase. It should be more than 30 characters long and unique to you, 
+						for example: your childhood phone number followed by a verse from your favorite song.
 					</p>
-					<img id="enterScreenPic" src="resources/imgs/enterScreen.png" alt="" style="position: relative;" />
+					<img id="passphraseScreenPic" src="resources/imgs/passphraseScreen.png" alt="" style="position: relative;" />
 					<p>
-						Congratulations, you now have a sovereign seal! You can publish it so that other people can connect to you securely.<br/>
+						Congratulations, you now have a <b><i>sovereign seal</i></b>! You can publish it so that other people can connect to you securely.<br/>
 						<br/>
 						Enter your name in the "Own Info" screen that will appear and you're done.
-						<!-- Do NOT add an OwnInfo screenshot here, so the user doesn't get scared too early. :) -->
 					</p>
 				</li>
 			</ul>
@@ -60,19 +62,29 @@ gettingStarted: class='sel'
 		</div>
 
 		<div id="addFriend" align="left" style="display: none;">
-			<ul	style="list-style-type: none; position: relative; margin-left: 10px; width: 700px">
+			<ul	style="list-style-type: none; position: relative; margin-left: 10px; width: 650px">
 				<li>
-					<p>Adding a friend</p>
+					<p>
+						Adding a friend in Sneer is quite simple, just go to menu <i>My Contacts</i> and click on <i>New Contact...</i>
+					</p>
+					<img id="newContactPic" src="resources/imgs/newContact.png" alt="" style="position: relative; width: 280px; height: 400px" />
+					<p>
+						Now you need to type your friend's <b><i>seal</i></b> and choose a nick name that easily identify him/her to you
+					</p>
+					<img id="contactInfoScreenPic" src="resources/imgs/contactInfoScreen.png" alt="" style="position: relative;" />
+					<p>
+						Press <i>Save</i> and wait for a green light beside the nickname to start sharing your musics, your applications, chating, playing a game...  
+					</p>
 				</li>
 			</ul>
 		</div>
 		
 		<div onclick="doit('share');" onMouseOver="this.style.cursor='pointer';">
-			<h3>» Sharing Music Tracks</h3>
+			<h3>» &#9836;&#9834; Sharing Music Tracks &#9834;&#9836;</h3>
 		</div>
 
 		<div id="share" align="left" style="display: none;">
-			<ul	style="list-style-type: none; position: relative; margin-left: 10px; width: 700px">
+			<ul	style="list-style-type: none; position: relative; margin-left: 10px; width: 650px">
 				<li>
 					<p>Sharing</p>
 				</li>
@@ -92,7 +104,7 @@ gettingStarted: class='sel'
 		</div>
 
 		<div id="uninstall" align="left" style="display: none;">
-			<ul	style="list-style-type: none; position: relative; margin-left: 10px; width: 700px">
+			<ul	style="list-style-type: none; position: relative; margin-left: 10px; width: 650px">
 				<li>
 					<p>To uninstall, simply delete the folder named sneer in your home folder.</p>
 				</li>
