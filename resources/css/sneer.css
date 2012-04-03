@@ -39,7 +39,7 @@ a { outline:none; }
 #left span.button { color:#333; }
 #left span strong { font-weight:normal; text-decoration:underline; }
 
-#center { width:720px; padding-top:20px; background-color:#fff; float:left; }
+#center, #social { width:720px; padding-top:20px; background-color:#fff; float:left; }
 #center #text { width:720px; margin-right:20px; background-color:#fff; float:left; }
 #center #text #box-what { float:left; }
 #center #text #box-what h1 { background: left top no-repeat url(../imgs/title-whatsneer.gif) #fff; width:204px; height:25px; text-indent:-9999px; margin:0 0 15px 0; padding:0; }
