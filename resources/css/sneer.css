@@ -56,7 +56,9 @@ a { outline:none; }
 #center #gettingStarted a { color:#0097DE; text-decoration:underline; }
 #center #gettingStarted a:hover { color:#0097DE; text-decoration:none; }
 #center #project h1 { background: left top no-repeat url(../imgs/title-project.gif) #fff; width:91px; height:30px; }
-#center #project #text { text-align:justify; color:#666; font-size:14px; font-weight:normal; float:left; }
+
+#center #project #text, #center #socialText { text-align:justify; color:#666; font-size:14px; font-weight:normal; float:left; }
+
 #center #problems h1 { background: left top no-repeat url(../imgs/title-problems.gif) #fff; width:200px; height:32px; }
 #center #problems #text { text-align:justify; color:#666; font-size:14px; font-weight:normal; float:left; }
 #center #about h1 { background: left top no-repeat url(../imgs/title-about.gif) #fff; width:124px; height:24px; }
