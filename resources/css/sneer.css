@@ -56,7 +56,7 @@ a { outline:none; }
 #center #gettingStarted a { color:#0097DE; text-decoration:underline; }
 #center #gettingStarted a:hover { color:#0097DE; text-decoration:none; }
 #center #project h1 { background: left top no-repeat url(../imgs/title-project.gif) #fff; width:91px; height:30px; }
-#center #project #text { text-align:justify; color:#666; font-size:14px; font-weight:normal; float:left; }
+#center #project #text, #socialText { text-align:justify; color:#666; font-size:14px; font-weight:normal; float:left; }
 #center #problems h1 { background: left top no-repeat url(../imgs/title-problems.gif) #fff; width:200px; height:32px; }
 #center #problems #text { text-align:justify; color:#666; font-size:14px; font-weight:normal; float:left; }
 #center #about h1 { background: left top no-repeat url(../imgs/title-about.gif) #fff; width:124px; height:24px; }
@@ -87,6 +87,4 @@ a { outline:none; }
 #bottom span.footer-text-bottom { color:#BFBFBF; font-size:10px; }
 #bottom a.mediaplus-logo { background:url(../imgs/mediaplus-logo.png) top left; margin-top:10px; width:55px; height:22px; text-indent:-9999px; float:right; }
 
-#social { width:720px; padding-top:20px; background-color:#fff; float:left; }
-#social #socialText { text-align:justify; color:#666; font-size:14px; font-weight:normal; float:left; }
-#social #socialText ul { line-height: 200%; }
+#socialText ul { line-height: 200%; }
