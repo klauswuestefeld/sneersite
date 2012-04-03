@@ -1,0 +1,26 @@
+---
+layout: base
+---
+
+<!-- Refer to resources/css/sneer.css for details of the layout's style -->
+
+<div id="main">
+	<div id="top">
+		{% include header.html %}
+	</div>
+
+	<div id="left">
+		{% include menu.html %}
+	</div>
+
+	<div id="center">
+		{{ content }}
+		{% include social.html %}
+	</div>
+</div>
+
+<div id="bottom-gap"></div>
+
+<div id="bottom">
+	{% include footer.html %}
+</div>
