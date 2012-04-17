@@ -79,7 +79,7 @@ a { outline:none; }
 #center #socialText { text-align:justify; color:#666; font-size:14px; font-weight:normal; float:left; }
 #center #socialText ul { line-height: 200%; }
 #center #tshirtsStuff #text { text-align:justify; color:#666; font-size:14px; font-weight:normal; float:left; }
-#center #tshirtsStuff h1 { background: left top no-repeat url(../imgs/title-tshirtsStuff.gif) #fff; width:124px; height:24px; }
+#center #tshirtsStuff h1 { background: left top no-repeat url(../imgs/title-tshirtsStuff.gif) #fff;}
 
 #bottom-gap { clear:both; padding-top:30px; }
 
