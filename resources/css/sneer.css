@@ -59,8 +59,8 @@ a { outline:none; }
 #center #project #text { text-align:justify; color:#666; font-size:14px; font-weight:normal; float:left; }
 #center #problems h1 { background: left top no-repeat url(../imgs/title-problems.gif) #fff; width:200px; height:32px; }
 #center #problems #text { text-align:justify; color:#666; font-size:14px; font-weight:normal; float:left; }
-#center h1 { background: left top no-repeat url(../imgs/title-about.gif) #fff; width:124px; height:24px; }
-#center #about h1 { background: left top no-repeat url(../imgs/title-contributors.gif) #fff; }
+#center #hContributors { background: left top no-repeat url(../imgs/title-about.gif) #fff; width:124px; height:24px; }
+#center #hAboutus { background: left top no-repeat url(../imgs/title-contributors.gif) #fff; width:224px; height:24px; }
 #center #about { color:#666; font-size:14px; }
 #center #about .member { border:none; float:left; }
 #center #about .photo { border:5px solid #C8DDE8; width:90px; margin-right:10px; float:left; }
