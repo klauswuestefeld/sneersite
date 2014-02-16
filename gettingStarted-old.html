@@ -1,0 +1,195 @@
+---
+layout: composite
+gettingStarted: class='sel'
+---
+<link rel="icon" href="resources/favicon.ico" type="image/x-icon">
+<div id="gettingStarted">
+	<script type="text/javascript">
+		function doit(pId) {
+		    div = document.getElementById(pId);
+		    if (div.style.display == 'none') {
+		        div.style.display = 'inline';
+		    } else {
+		        div.style.display = 'none';
+		    }
+		}
+	</script>
+	<div id="text">
+		<h1>Getting Started</h1>
+			<p style="position: relative; margin-left: 10px;">
+				Using Sneer with others is more fun. Call a friend to try it out with you.
+			</p>
+	
+		<div onclick="doit('download');" onMouseOver="this.style.cursor='pointer';">
+			<h3>» Downloading</h3>
+		</div>
+
+		<div id="download" align="left" style="display: none;">
+			<ul	style="list-style-type: none; position: relative; margin-left: 10px; width: 650px">
+				<li>
+					<p>
+						This will download source code, binaries and launch Sneer.<br/>
+						<br/>
+						Automatic installation: <script src="http://www.java.com/js/deployJava.js"></script>
+						<script>
+					    	var url = "http://dynamic.sneer.me/sneer.jnlp";
+					    	deployJava.createWebStartLaunchButton(url, '1.7.0');
+						</script>
+						<br />
+						or
+						<br />
+						Manual installation: <a href="http://dynamic.sneer.me/sneer.jnlp">Sneer</a> 
+							(requires <a href="http://java.com/inc/BrowserRedirect1.jsp?locale=en" target="_blank">Java 7 Webstart</a>).
+					</p>
+					<br />
+					<p>
+						You will be prompted for a secret passphrase. It should be more than 30 characters long and unique to you, 
+						for example: your childhood phone number followed by a verse from your favorite song.
+					</p>
+					<img id="passphraseScreenPic" src="resources/imgs/passphraseScreen.png" alt="" />
+					<p>
+						Congratulations, you now have a <a href="resources/imgs/seal.jpg">sovereign seal</a>! You can publish it so that other people can connect to you securely.<br/>
+						<br/>
+						Enter your name in the "Own Info" screen that will appear and you're done.
+					</p>
+				</li>
+			</ul>
+		</div>
+		
+		<div onclick="doit('addFriend');" onMouseOver="this.style.cursor='pointer';">
+			<h3>» Adding a Friend</h3>
+		</div>
+
+		<div id="addFriend" align="left" style="display: none;">
+			<ul	style="list-style-type: none; position: relative; margin-left: 10px; width: 650px">
+				<li>
+					<p>
+						Go to the <i>My Contacts</i> menu and click on <i>New Contact...</i>
+					</p>
+					<img id="newContactPic" src="resources/imgs/newContact.png" alt="" />
+					<p>
+						Right-click on the new contact &rsaquo; Edit Contact.<br/>
+					</p>
+						<img id="editContactPic" src="resources/imgs/editContact.png" alt="" />
+					<p>
+						Enter any nickname for your friend and paste his/her <b><i>seal</i></b>.
+					</p>
+					<img id="contactInfoScreenPic" src="resources/imgs/contactInfoScreen.png" alt="" />
+					<p>
+						 Your friend will have to do the same thing for you on his side.<br />
+						<br />
+						Either you or your friend (or both) will have to fill in the host and port fields for the other person. You can find out your host IP address <a href="http://whatsmyip.org">here</a>. You can find out your seal and port number in the "Main Menu &rsaquo; Own Info" screen.<br />
+						 <br />
+						Close the "Contact Info" window.<br />
+						 <br />
+						When a green light beside your friend's nickname appears it means that you're connected! If you cannot get a connection, find a sovereign friend to help you <a href="http://www.google.com/search?q=port+forwarding">forward your port</a> on your router.
+					</p>
+				</li>
+			</ul>
+		</div>
+		
+		<div onclick="doit('share');" onMouseOver="this.style.cursor='pointer';">
+			<h3>
+				» MP3 Sharing with No Way Technology
+			</h3>
+		</div>
+
+		<div id="share" align="left" style="display: none;">
+			<ul	style="list-style-type: none; position: relative; margin-left: 10px; width: 650px">
+				<li>
+					<p>
+						Want to share songs you and your friends wrote? You guys have cool tracks that are public domain?<br />
+						<br />
+						Sneer will download random tracks from your friends to surprise you.<br />
+						<br />
+					<p>
+						As soon as you begin to listen to the tracks that have been downloaded already, three icons will appear below under the player control buttons. 
+						Click on the “Me Too” icon (the happy face) if you like the song and want Sneer to download similar tracks. 
+						Click on the “Meh” icon (the face showing its tongue) if you don’t like the song and want Sneer to delete downloaded track, but do not want to influence your preferences. 
+						And click on the “No Way” icon (the cringing face) if you do not like the song, so that Sneer deletes the downloaded track and does not download similar ones.
+					</p>
+					<img id="musicinboxpreferencespic" src="resources/imgs/music-inbox-preferences.png" alt="" />
+					<p>
+						Using No Way technology, Sneer will actually <i>learn</i> about your musical taste! 
+						The more tracks you download from your friends, the better the software will become at determining your preferences and download songs you like better.
+						<br /><br />
+						Click on <i>Menu</i> &rsaquo; <i>Music</i> to open the player.
+					</p>
+					<img id="musicPic" src="resources/imgs/music.png" alt="" />
+					<p>
+						The player will appear at the bottom of the Sneer window. Hover over the player and click on  <i>Music</i> &rsaquo; <i>Choose Tracks Folder...</i>
+					</p>
+					<img id="tracksFolderPic" src="resources/imgs/tracksFolder.png" alt="" />
+					<p>
+						Choose the folder with the tracks which you want Sneer to share with your friends. All subfolders will be shared as well.
+					</p>
+					<img id="tracksFolderScreenPic" src="resources/imgs/tracksFolderScreen.png" alt="" />
+					<p>
+						OK! Now you have a drop-down list with all the subfolders in the folder you 	had selected earlier as well as one <i>&lsaquo;Inbox&rsaquo;</i> option. 
+						This inbox option contains the tracks Sneer has downloaded from your friends. The counter (beside the inbox option) will increase for every friend’s track received. 
+					</p>
+					<img id="drop-downPic" src="resources/imgs/drop-downScreen.png" alt="" />
+					<p>
+						To listen to your tracks, choose a folder from the drop-down list and your songs will begin to play.
+					</p>
+					<img id="playerPic" src="resources/imgs/player.png" alt="" />
+					<p>
+						Great! Now you can listen to your own music folders using Sneer, but before you can share any of your tracks, you must allow the program to map them all (this process can take a while).
+					</p>
+					<p>
+						To monitor the mapping task and any other tasks Sneer is running, check the Log Console by clicking on <i>Menu</i> &rsaquo; <i>Open Log Console</i>
+					</p>
+					<img id="openLogConsolePic" src="resources/imgs/openLogConsole.png" alt=""  />
+					<p>
+						The following screen will open, logging Sneer’s events.
+					</p>
+					<img id="logConsolePic" src="resources/imgs/logScreen.png" alt="" />
+					<p>
+						As soon as Sneer is done mapping, it will begin to download songs from your online friends. If you want to follow the progress of your downloads, go to <i>Menu</i> &rsaquo; <i>Downloads...</i>
+					</p>
+					<img id="downloadsPic" src="resources/imgs/downloads.png" alt="" />
+					<p>
+						Label the songs in your inbox in order for Sneer to download more songs and cater to your preferences. 
+					</p>
+
+				</li>
+			</ul>
+		</div>
+		
+		<div onclick="doit('sendFile');" onMouseOver="this.style.cursor='pointer';">
+			<h3>» Send files or folders</h3>
+		</div>
+
+		<div id="sendFile" align="left" style="display: none;">
+			<ul	style="list-style-type: none; position: relative; margin-left: 10px; width: 650px">
+				<li>
+					<p>
+						Right click on the name of the contact you wish to send documents to. Select the option "Send Files or Folders". A window will pop-up, from which you must choose the flie or folder you wich to send your friend.
+				</li>
+			</ul>
+		</div>
+
+		<!--
+			» Dashboard Tips and Tricks
+				Dock, Undock, Menu, etc.
+				
+			» Coding Your Own App Like a Boss
+				Importing into Eclipse, Own Project, WindowChat app.
+		-->
+		
+		<div onclick="doit('uninstall');" onMouseOver="this.style.cursor='pointer';">
+			<h3>» Uninstalling</h3>
+		</div>
+
+		<div id="uninstall" align="left" style="display: none;">
+			<ul	style="list-style-type: none; position: relative; margin-left: 10px; width: 650px">
+				<li>
+					<p>To uninstall, simply delete the folder named sneer in your home folder.</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="gap"></div>
+
