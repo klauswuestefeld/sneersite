@@ -111,6 +111,13 @@ body.new-home{
 	margin: 0 auto 0 auto;
 }
 
+footer{
+	background-color: rgb(82,90,140);
+	color: #fff;
+	width: 100%;
+	height: 25px;
+}
+
 /* HEADER styles */
 
 body.new-home header { 
