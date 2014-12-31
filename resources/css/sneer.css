@@ -95,14 +95,22 @@ a { outline:none; }
 /* NEW HOME STYLES */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700italic,700,600italic,600,400italic,300italic,300);
 
+/* basis */
+
 body.new-home{ 
 	margin:0; 
 	padding:0;
 	background: #fff; 
 	font-family: 'Open Sans', sans-serif; 
 }
+.wrapper {
+	width: 90%;
+	padding: 0;
+	margin: 0 auto 0 auto;
+}
 
-body.new-home h1{ font-weight: 300; }
+/* HEADER styles */
+
 body.new-home header { 
 	background-color: #993333;
 	position: fixed;
@@ -112,29 +120,27 @@ body.new-home header {
 	padding: 10px;
 }
 
-body.new-home header a img{
-	height: 50px;
-	width: auto;
-}
-
+body.new-home header a img{ height: 50px; width: auto; }
 body.new-home header ul{ float: right;}
 body.new-home header ul li{
 	display: inline-block;
 	list-style: none;
 	margin-left:25px;
 }
+
 body.new-home header ul li a{
 	color: #fff;
 	font-size: 14px;
 	text-decoration: none;
 	font-weight: 600;
 }
-body.new-home header ul li a:hover{ border-bottom: 2px solid #fff;}
 
-.wrapper {
-	width: 90%;
-	padding: 0;
-	margin: 0 auto 0 auto;
-}
+body.new-home header ul li a:hover{ border-bottom: 2px solid #fff;}
+/* end of HEADER STYLES*/
+
+
+/* CONTENT styles */
+
+.content .wrapper{ margin-top: 80px; }
 
 
