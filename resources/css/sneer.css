@@ -106,6 +106,7 @@ body.new-home{
 }
 .wrapper {
 	width: 90%;
+	max-width: 1152px;
 	padding: 0;
 	margin: 0 auto 0 auto;
 }
