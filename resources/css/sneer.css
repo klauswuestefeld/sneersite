@@ -103,11 +103,38 @@ body.new-home{
 }
 
 body.new-home h1{ font-weight: 300; }
+body.new-home header { 
+	background-color: #993333;
+	position: fixed;
+	height: 50px;
+	top: 0;
+	width: 100%;
+	padding: 10px;
+}
+
+body.new-home header a img{
+	height: 50px;
+	width: auto;
+}
+
+body.new-home header ul{ float: right;}
+body.new-home header ul li{
+	display: inline-block;
+	list-style: none;
+	margin-left:25px;
+}
+body.new-home header ul li a{
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: 600;
+}
+body.new-home header ul li a:hover{ border-bottom: 2px solid #fff;}
+
 .wrapper {
 	width: 90%;
 	padding: 0;
 	margin: 0 auto 0 auto;
-	background-color: #f4f4f4; 
 }
 
 
