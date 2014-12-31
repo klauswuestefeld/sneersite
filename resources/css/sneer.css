@@ -93,10 +93,10 @@ a { outline:none; }
 
 
 /* NEW HOME STYLES */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700italic,700,600italic,600,400italic,300italic,300);
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700italic,700,600italic,600,400italic,300italic,300); /* THIS IS THE BASIS FONT */
 
 /* basis */
-
 body.new-home{ 
 	margin:0; 
 	padding:0;
@@ -128,19 +128,37 @@ body.new-home header ul li{
 	margin-left:25px;
 }
 
+body.new-home header ul li a:hover{ border-bottom: 2px solid #fff;}
 body.new-home header ul li a{
 	color: #fff;
 	font-size: 14px;
 	text-decoration: none;
 	font-weight: 600;
 }
-
-body.new-home header ul li a:hover{ border-bottom: 2px solid #fff;}
 /* end of HEADER STYLES*/
 
 
 /* CONTENT styles */
 
-.content .wrapper{ margin-top: 80px; }
+.content .wrapper{ margin-top: 80px; text-align: center;}
+.content span { font-weight: 700;}
+.content img { display: block; margin: 40px auto;}
+
+.content h1{ 
+	display: block;
+	text-align: center;
+	margin-top: 100px;
+	font-size: 42px;
+	color: rgb(82,90,140);
+	font-weight: 300;
+}
+
+hr.h1divisor{ 
+	width: 130px; 
+	border-bottom: 2px solid rgb(82,90,140);
+	margin: 0 auto;
+}
+
+
 
 
