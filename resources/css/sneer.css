@@ -207,7 +207,7 @@ img.right{ float: right; margin-left: 5%;}
 	.text-block{ padding: 20px 0 40px; width: 90%;}
 	img.all { width: 70%; height: auto;}
 	body.new-home header ul{ max-width: 200px; text-align: right; margin-top:5px;}
-	body.new-home header ul li{ margin-left:10px;}
+	body.new-home ul li{ margin-left:10px;}
 
 @media (max-width: 500px){ 
 	.info-block img{ width: 90%; padding:0;}
@@ -216,8 +216,9 @@ img.right{ float: right; margin-left: 5%;}
 	.content h1{ font-size: 36px; margin-top: 50px;}
 	.text-block{ font-size: 14px; line-height: 24px; padding: 20px 0 40px; width: 90%;}
 	body.new-home header ul{padding: 0; width: 120px; margin-top:0;}
-	body.new-home header ul li a{ font-size: 12px;}
+	body.new-home ul li a{ font-size: 12px;}
 	body.new-home header a img{ height: 40px; width: auto; }
+	footer ul{ display: none;}
 	.wrapper { min-width: 260px;}
 }
 
