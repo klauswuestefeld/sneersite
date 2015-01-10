@@ -3,7 +3,7 @@
 	img.left, img.right{ float: none;  margin: 40px auto 0;}
 	.text-block{ padding: 20px 0 40px; width: 90%;}
 	img.all { width: 70%; height: auto;}
-	body.new-home header ul{ max-width: 200px; text-align: right; margin-top:5px;}
+	body.new-home header ul{ text-align: right; margin-top:5px;}
 	body.new-home ul li{ margin-left:10px;}
 
 @media (max-width: 500px){ 
@@ -12,7 +12,7 @@
 	img.all { width: 80%; height: auto;}
 	.content h1{ font-size: 36px; margin-top: 50px;}
 	.text-block{ font-size: 14px; line-height: 24px; padding: 20px 0 40px; width: 90%;}
-	body.new-home header ul{padding: 0; margin-top:0; width: 250px; width: -webkit-calc(100% - 120px);  /* para Chrome */width: -moz-calc(100% - 120px);     /* para Firefox */width: calc(100% - 120px);text-align: right;}
+	body.new-home header ul{padding: 0; margin-top:0; width: -webkit-calc(100% - 120px);  /* para Chrome */width: -moz-calc(100% - 120px);     /* para Firefox */width: calc(100% - 120px);text-align: right;}
 	body.new-home ul li a{ font-size: 12px;}
 	body.new-home header a img{ height: 40px; width: auto; }
 	footer ul{ display: none;}
