@@ -129,7 +129,6 @@ body.new-home header a img{ height: 50px; width: auto; display: inline-block; ve
 body.new-home ul{ 
 	display: inline-block;
 	vertical-align: middle;
-	right:0;
 	width: -webkit-calc(100% - 155px);  /* para Chrome */
  	width: -moz-calc(100% - 155px);     /* para Firefox */
  	width: calc(100% - 155px);

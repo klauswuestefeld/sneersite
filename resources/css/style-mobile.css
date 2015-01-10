@@ -12,7 +12,7 @@
 	img.all { width: 80%; height: auto;}
 	.content h1{ font-size: 36px; margin-top: 50px;}
 	.text-block{ font-size: 14px; line-height: 24px; padding: 20px 0 40px; width: 90%;}
-	body.new-home header ul{padding: 0; position: absolute; margin-top:0; top: 5px; right:20px; margin-right: 10px; width: 250px;}
+	body.new-home header ul{padding: 0; margin-top:0; width: 250px; width: -webkit-calc(100% - 120px);  /* para Chrome */width: -moz-calc(100% - 120px);     /* para Firefox */width: calc(100% - 120px);text-align: right;}
 	body.new-home ul li a{ font-size: 12px;}
 	body.new-home header a img{ height: 40px; width: auto; }
 	footer ul{ display: none;}
