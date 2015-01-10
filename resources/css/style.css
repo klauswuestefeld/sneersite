@@ -125,10 +125,15 @@ body.new-home header {
 	overflow: hidden;
 }
 
-body.new-home header a img{ height: 50px; width: auto; }
+body.new-home header a img{ height: 50px; width: auto; display: inline-block; vertical-align: middle;}
 body.new-home ul{ 
-	float:right;
-	display: block;
+	display: inline-block;
+	vertical-align: middle;
+	right:0;
+	width: -webkit-calc(100% - 155px);  /* para Chrome */
+ 	width: -moz-calc(100% - 155px);     /* para Firefox */
+ 	width: calc(100% - 155px);
+	text-align: right;
 }
 body.new-home ul li{
 	display: inline-block;
