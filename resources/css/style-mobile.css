@@ -20,6 +20,7 @@
 }
 
 @media (max-width: 320px) {
+	body.new-home header a img{ height: 30px; width: auto; }
 	body.new-home ul li a{font-size: 12px;}
 	.text-block{font-size: 14px; }
 	.wrapper {width: 97%;}
