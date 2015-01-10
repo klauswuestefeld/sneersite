@@ -18,3 +18,11 @@
 	footer ul{ display: none;}
 	.wrapper { min-width: 260px;}
 }
+
+@media (max-width: 320px) {
+	body.new-home ul li a{font-size: 12px;}
+	.text-block{font-size: 14px; }
+	.wrapper {width: 97%;}
+	.content h1{ font-size: 24px; margin-top: 25px;}
+	.content h2{ font-size: 18px;}
+}
