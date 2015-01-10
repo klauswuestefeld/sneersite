@@ -12,7 +12,7 @@
 	img.all { width: 80%; height: auto;}
 	.content h1{ font-size: 36px; margin-top: 50px;}
 	.text-block{ font-size: 14px; line-height: 24px; padding: 20px 0 40px; width: 90%;}
-	body.new-home header ul{padding: 0; width: 120px; margin-top:0;}
+	body.new-home header ul{padding: 0; position: absolute; margin-top:0; top: 5px; right:20px; margin-right: 10px; width: 170px;}
 	body.new-home ul li a{ font-size: 12px;}
 	body.new-home header a img{ height: 40px; width: auto; }
 	footer ul{ display: none;}
