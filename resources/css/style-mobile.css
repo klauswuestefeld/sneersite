@@ -21,7 +21,7 @@
 
 @media (max-width: 320px) {
 	body.new-home header a img{ height: 30px; width: auto; }
-	body.new-home header ul{width: -webkit-calc(100% - 90px);  /* para Chrome */width: -moz-calc(100% - 90px);     /* para Firefox */width: calc(100% - 90px);}
+	body.new-home header ul{width: -webkit-calc(100% - 105px);  /* para Chrome */width: -moz-calc(100% - 105px);     /* para Firefox */width: calc(100% - 105px);}
 	body.new-home ul li a{font-size: 12px;}
 	.text-block{font-size: 14px; }
 	.wrapper {width: 97%;}
