@@ -1,14 +1,78 @@
 <link rel="icon" href="resources/favicon.ico" type="image/x-icon">
-<div id="public-key">
-	<h1>You have received a link with somebody's Sneer public key. :)</br></br>
 
-		First, install the <a href="https://play.google.com/store/apps/details?id=sneer.main">Sneer App</a> for Android.</br></br>
+<div id="valid-invite" class="invite-text">
 
-		Then, on your Android device with Sneer installed, open the link you received again.</br></br>
-		That person will be added as your new Sneer contact.
-	</h1>
+	<p>
+		You have received a Sneer invite!
+	</p>
+	<p>
+		Click the button bellow to accept it and
+		<br>
+		install the Sneer App.
+	</p>
+
+	<a id="install-button" href="">
+		<img alt="Get it on Google Play"
+			 src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
+	</a>
+
+	<!--<button onclick="goToPlayStore();">-->
+		<!--Install Sneer-->
+	<!--</button>-->
+
 </div>
+
+<div id="invalid-invite" style="display: none;">
+	<p>
+		Invalid Sneer invitation.
+	</p>
+</div>
+
 <script type = 'text/javascript'>
-	window.location = "https://play.google.com/store/apps/details?id=me.sneer.referrertestapp&referrer=" +
-	window.location.search.split('?key=')[1]
+
+	var invite = getInviteCode();
+	if (!invite) {
+		document.getElementById("valid-invite").style.display = "none";
+		document.getElementById("invalid-invite").style.display = "inherit";
+	} else {
+		var link = "https://play.google.com/store/apps/details?id=sneer.main&referrer=" + invite;
+		document.getElementById("install-button").href = link;
+	}
+
+	function getInviteCode() {
+		var inviteCode = window.location.search.split('?')[1];
+		if (!inviteCode || inviteCode.trim().length < 64 + 1 + 16) return null;
+		return inviteCode.trim();
+	}
+
+	function goToPlayStore() {
+		var link = "https://play.google.com/store/apps/details?id=sneer.main&referrer=" + getInviteCode();
+		window.location = link;
+	}
+
 </script>
+
+<style>
+
+	.invite-text {
+		font-family: Roboto, Arial, sans-serif;
+		font-size: 21px;
+		line-height: 27px;
+		text-align: center;
+		color: rgba(0, 0, 0, .87);
+
+	}
+
+	.invite-text button {
+		font-family: Roboto, Arial, sans-serif;
+		font-size: 20px;
+		background-color: darkred;
+		color: white;
+		border-style: none;
+		padding: 6px 15px;
+		border-radius: 3px;
+		box-shadow:1px 1px 5px #333333;
+	}
+
+</style>
+
