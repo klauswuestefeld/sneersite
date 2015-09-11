@@ -9,10 +9,10 @@
 
 <body>
 
-	<div id="valid-invite" class="invite-text">
+	<img id="logo" alt="Sneer Logo"
+		 src="resources/imgs/sneerlogo-red.png" />
 
-		<img id="logo" alt="Sneer Logo"
-			 src="resources/imgs/sneerlogo-red.png" />
+	<div id="valid-invite" class="invite-text">
 
 		<p>
 			You have received a Sneer invite!
@@ -28,15 +28,11 @@
 				 src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png" />
 		</a>
 
-		<!--<button onclick="goToPlayStore();">-->
-		<!--Install Sneer-->
-		<!--</button>-->
-
 	</div>
 
 	<div id="invalid-invite" style="display: none;">
 		<p>
-			Invalid Sneer invitation.
+			Invalid Sneer invite.
 		</p>
 	</div>
 
@@ -57,38 +53,21 @@
 			return inviteCode.trim();
 		}
 
-		function goToPlayStore() {
-			var link = "https://play.google.com/store/apps/details?id=sneer.main&referrer=" + getInviteCode();
-			window.location = link;
-		}
-
 	</script>
 
 	<style>
 
-		#logo {
-			margin-top: 24px;
-			width: 210px;
-		}
-
-		.invite-text {
+		body {
 			font-family: Roboto, Arial, sans-serif;
 			font-size: 18px;
 			line-height: 24px;
 			text-align: center;
 			color: rgba(0, 0, 0, .87);
-
 		}
 
-		.invite-text button {
-			font-family: Roboto, Arial, sans-serif;
-			font-size: 20px;
-			background-color: darkred;
-			color: white;
-			border-style: none;
-			padding: 6px 15px;
-			border-radius: 3px;
-			box-shadow:1px 1px 5px #333333;
+		#logo {
+			margin-top: 24px;
+			width: 210px;
 		}
 
 	</style>
