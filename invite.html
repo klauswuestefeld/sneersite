@@ -1,78 +1,90 @@
-<link rel="icon" href="resources/favicon.ico" type="image/x-icon">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" href="resources/favicon.ico" type="image/x-icon">
+	<meta charset="UTF-8">
+	<title>Sneer Invite</title>
+</head>
 
-<div id="valid-invite" class="invite-text">
+<body>
 
-	<p>
-		You have received a Sneer invite!
-	</p>
-	<p>
-		Click the button bellow to accept it and
-		<br>
-		install the Sneer App.
-	</p>
+	<div id="valid-invite" class="invite-text">
 
-	<a id="install-button" href="">
-		<img alt="Get it on Google Play"
-			 src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
-	</a>
+		<p>
+			You have received a Sneer invite!
+		</p>
+		<p>
+			Click the button bellow to accept it and
+			<br>
+			install the Sneer App.
+		</p>
 
-	<!--<button onclick="goToPlayStore();">-->
+		<a id="install-button" href="">
+			<img alt="Get it on Google Play"
+				 src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
+		</a>
+
+		<!--<button onclick="goToPlayStore();">-->
 		<!--Install Sneer-->
-	<!--</button>-->
+		<!--</button>-->
 
-</div>
+	</div>
 
-<div id="invalid-invite" style="display: none;">
-	<p>
-		Invalid Sneer invitation.
-	</p>
-</div>
+	<div id="invalid-invite" style="display: none;">
+		<p>
+			Invalid Sneer invitation.
+		</p>
+	</div>
 
-<script type = 'text/javascript'>
+	<script type = 'text/javascript'>
 
-	var invite = getInviteCode();
-	if (!invite) {
-		document.getElementById("valid-invite").style.display = "none";
-		document.getElementById("invalid-invite").style.display = "inherit";
-	} else {
-		var link = "https://play.google.com/store/apps/details?id=sneer.main&referrer=" + invite;
-		document.getElementById("install-button").href = link;
-	}
+		var invite = getInviteCode();
+		if (!invite) {
+			document.getElementById("valid-invite").style.display = "none";
+			document.getElementById("invalid-invite").style.display = "inherit";
+		} else {
+			var link = "https://play.google.com/store/apps/details?id=sneer.main&referrer=" + invite;
+			document.getElementById("install-button").href = link;
+		}
 
-	function getInviteCode() {
-		var inviteCode = window.location.search.split('?')[1];
-		if (!inviteCode || inviteCode.trim().length < 64 + 1 + 16) return null;
-		return inviteCode.trim();
-	}
+		function getInviteCode() {
+			var inviteCode = window.location.search.split('?')[1];
+			if (!inviteCode || inviteCode.trim().length < 64 + 1 + 16) return null;
+			return inviteCode.trim();
+		}
 
-	function goToPlayStore() {
-		var link = "https://play.google.com/store/apps/details?id=sneer.main&referrer=" + getInviteCode();
-		window.location = link;
-	}
+		function goToPlayStore() {
+			var link = "https://play.google.com/store/apps/details?id=sneer.main&referrer=" + getInviteCode();
+			window.location = link;
+		}
 
-</script>
+	</script>
 
-<style>
+	<style>
 
-	.invite-text {
-		font-family: Roboto, Arial, sans-serif;
-		font-size: 21px;
-		line-height: 27px;
-		text-align: center;
-		color: rgba(0, 0, 0, .87);
+		.invite-text {
+			font-family: Roboto, Arial, sans-serif;
+			font-size: 21px;
+			line-height: 27px;
+			text-align: center;
+			color: rgba(0, 0, 0, .87);
 
-	}
+		}
 
-	.invite-text button {
-		font-family: Roboto, Arial, sans-serif;
-		font-size: 20px;
-		background-color: darkred;
-		color: white;
-		border-style: none;
-		padding: 6px 15px;
-		border-radius: 3px;
-		box-shadow:1px 1px 5px #333333;
-	}
+		.invite-text button {
+			font-family: Roboto, Arial, sans-serif;
+			font-size: 20px;
+			background-color: darkred;
+			color: white;
+			border-style: none;
+			padding: 6px 15px;
+			border-radius: 3px;
+			box-shadow:1px 1px 5px #333333;
+		}
 
-</style>
+	</style>
+
+</body>
+</html>
+
 
